@@ -9,7 +9,10 @@ After comparing various data models, the entity relationship data model is the b
 #### Little Lemon Entities with Attributes 
 1. Customer - [CustomerID, FirstName, LastName, Email, PhoneNumber]
 2. Orders   - [OrderID, BookingID, CustomerID, MenuID, Quantity, TotalCost]
-3. Bookings - [BookingID, TableNo, CustomerID, BookingSlot, EmployeeID]         
+3. Bookings - [BookingID, TableNo, CustomerID, BookingSlot, EmployeeID]
+4. Menu - [MenuID, ItemID, Name, MenuType]
+5. MenuItem - [ItemID, Name, Type, Price]
+6. Employee - [EmployeeID, FirstName, LastName, Role, Salary]         
 
 ### Task-1 
 MySQL workbench was used to create the entity relationship model or ER diagram for the Little Lemon database system. The database that must conform to the 3 fundamental normal forms NF1, NF2, NF3. The forward engineering feature was then used to implement the Little Lemom database schema.  
