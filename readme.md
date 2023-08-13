@@ -15,7 +15,7 @@ After comparing various data models, the entity relationship model is the best f
 6. Employee - [EmployeeID, FirstName, LastName, Role, Salary]         
 
 ### Task-1 
-MySQL workbench was used to create the entity relationship model or ER diagram for the Little Lemon database management system. The diagram show a one-to-one, one-to-many, and many-to-many relationship between entities. The database that must conform to the 3 fundamental normal forms NF1, NF2, NF3. The forward engineering feature was then used to implement the Little Lemom database schema.  
+MySQL workbench was used to create the entity relationship model or ER diagram for the Little Lemon database management system. The diagram show a one-to-many relationship between entities. The database also conforms to the 3 fundamental normal forms 1NF, 2NF and 3NF. The forward engineering feature was then used to implement the Little Lemom database schema.  
 
 ![Little Lemon Data Model](LittleLemonDataModel/LittleLemonDM.png)
 
