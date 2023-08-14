@@ -27,3 +27,8 @@ The MySQL workbench forward engineering feature was then used to implement the L
 ### 1. Create Virtual Table to summarize data
 
 ![OrderView](LittleLemon_OrderView_VirtualTableQuery_results.png)
+
+
+### 2. Join query statement for multiple tables 
+
+[Join Query](LittleLemon_Join_Tables_Queries/LittleLemon_JoinQuery_DataSummarization.sql)
