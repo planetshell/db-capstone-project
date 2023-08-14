@@ -31,4 +31,6 @@ The MySQL workbench forward engineering feature was then used to implement the L
 
 ### 2. Join query statement for multiple tables 
 
-[Join Query](LittleLemon_Join_Tables_Queries/LittleLemon_JoinQuery_DataSummarization.sql)
+[Little Lemon Join Query SQL Statment](LittleLemon_Join_Tables_Queries/LittleLemon_JoinQuery_DataSummarization.sql)
+
+![Join Query](LittleLemon_Join_Tables_Queries/LittleLemon_JoinTableQuery_DataSummerization_results.png)
