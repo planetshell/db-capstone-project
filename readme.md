@@ -3,7 +3,7 @@
 ## Introduction
 This project is helps Little Lemon build and management. To accomplish this, the following tasks were performed:
 
-## Task-1
+## Task-1 Build Little Lemon Database Management System
 ### Choosing the right Data Model
 After comparing various data models, the entity relationship model is the best fit for Little Lemon data requirments.This model present each table as an entity with a set of attribules in a ER diagram. Based on Little Lemon business structure, the following entitities and attributes were identified. 
 
@@ -22,4 +22,4 @@ MySQL workbench was used to create a normalized entity relationship model or ER 
 
 ### Implementing the Little Lemon database Schema
 The MySQL workbench forward engineering feature was then used to implement the Little Lemom database model into the MySQL server. schema.  
-### Task-2 
+## Task-2 Create Sales Report from Little Lemon data
