@@ -37,4 +37,11 @@ The query statement below collect information from four tables on all customers 
 ![Join Query](LittleLemon_Join_Tables_Queries/LittleLemon_JoinTableQuery_DataSummerization_results.png)
 
 
-### 3. Subquery 
+### 3. Data summarization using Subquery statment 
+
+Little Lemon need to find all menu items for which more than 2 orders have been placed. You can carry out this task by creating a subquery that lists the menu names from the menus table for any order quantity with more than 2.
+
+![OrderView](LittleLemon_OrderView_VirtualTableQuery_results.png)
+
+
+
