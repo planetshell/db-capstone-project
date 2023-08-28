@@ -41,10 +41,7 @@ The query statement below collect information from four tables on all customers 
 
 Little Lemon need to find all menu items for which more than 2 orders have been placed. You can carry out this task by creating a subquery that lists the menu names from the menus table for any order quantity with more than 2. This was accomplish using the following SQL statement. 
 
- SELECT Name AS MenuName FROM menu WHERE MenuID = ANY 
- (SELECT MenuID FROM orders WHERE Quantity > 2);
-
-![OrderView](LittleLemon_OrderView_VirtualTableQuery_results.png)
+![LittleLemon_SubQuery](LittleLemonSubQueries/LittleLemon_Subquery_DataSummerization_results.png)
 
 
 
