@@ -37,7 +37,7 @@ The query statement below collect information from four tables on all customers 
 ![Join Query](LittleLemon_Join_Tables_Queries/LittleLemon_JoinTableQuery_DataSummerization_results.png)
 
 
-### 3. Data summarization using Subquery statment 
+### 3. Data summarization using Subquery statement 
 
 Little Lemon need to find all menu items for which more than 2 orders have been placed. You can carry out this task by creating a subquery that lists the menu names from the menus table for any order quantity with more than 2. This was accomplish using the following SQL statement. 
 
@@ -45,6 +45,10 @@ Little Lemon need to find all menu items for which more than 2 orders have been 
 
 
 ## Task-3 Create Interactive Dashboard for Sales and Profit
+
+### 1. Barchart of Customer Sales 
+
+In the first task, you need to create a bar chart that shows customers sales and filter data based on sales with at least $70.
 
 
 
