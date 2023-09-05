@@ -50,5 +50,5 @@ Little Lemon need to find all menu items for which more than 2 orders have been 
 
 In the first task, you need to create a bar chart that shows customers sales and filter data based on sales with at least $70.
 
-
+![LittleLemon_SubQuery](LittleLemonSubQueries/LittleLemon_Subquery_DataSummerization_results.png)
 
