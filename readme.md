@@ -58,3 +58,10 @@ In the second task, you need to create a line chart to show the sales trend from
 
 ![LittleLemon_LineChart](LittleLemon_Tableau_DataAnalysis/LittleLemon_LineChart.png)
 
+
+### 2. LineChart of Sales Trend 2019 to 2022 
+
+In the third task, you need to create a Bubble chart of sales for all customers. The chart should show the names of all customers.
+
+![LittleLemon_LineChart](LittleLemon_Tableau_DataAnalysis/LittleLemon_LineChart.png)
+
