@@ -47,7 +47,14 @@ Little Lemon need to find all menu items for which more than 2 orders have been 
 
 ### 1. Stored Procedure GetMaxQuantity
 
-In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table. 
+In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table.
+
+CREATE DEFINER=`sbishop`@`%` PROCEDURE `GetMaxQuantity`()
+BEGIN
+SELECT max(Quantity) as MaxQuantityOrdered FROM orders;
+END
+
+
 
 
 
