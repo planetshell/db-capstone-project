@@ -72,3 +72,9 @@ In this task, you need to compare the sales of the three different cuisines sold
 
 ![LittleLemon_BarChart of cuisine sales](LittleLemon_Tableau_DataAnalysis/LittleLemon_Barchart.png)
 
+### 5. BarChart of Sales for Turkish Italian and Greek cuisines
+
+In this final task, you need to create an interactive dashboard that combines the Bar chart called Customers sales and the Sales Bubble Chart
+
+![LittleLemon_BarChart of cuisine sales](LittleLemon_Tableau_DataAnalysis/LittleLemon_Barchart.png)
+
