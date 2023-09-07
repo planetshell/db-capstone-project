@@ -54,6 +54,8 @@ BEGIN
 SELECT max(Quantity) as MaxQuantityOrdered FROM orders;
 END
 
+![GetMaxQuantity](LittleLemon_Stored_Procedures/LittleLemon_GetMaxQuantity_StoredProcedure_results.png)
+
 
 
 
