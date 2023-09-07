@@ -52,3 +52,9 @@ In the first task, you need to create a bar chart that shows customers sales and
 
 ![LittleLemon_CustomerSales](LittleLemon_Tableau_DataAnalysis/LittleLemon_BarChart2.png)
 
+### 2. LineChart of Sales Trend 2019 to 2022 
+
+In the second task, you need to create a line chart to show the sales trend from 2019 to 2022. 
+
+![LittleLemon_CustomerSales](LittleLemon_Tableau_DataAnalysis/LittleLemon_BarChart2.png)
+
