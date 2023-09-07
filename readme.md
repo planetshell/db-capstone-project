@@ -66,15 +66,14 @@ In the third task, you need to create a Bubble chart of sales for all customers.
 ![LittleLemon_BubbleChart](LittleLemon_Tableau_DataAnalysis/Little_Lemon_Sales_BubbleChart.png)
 
 
-### 4. Little Lemon Interactive Dashboard  
+### 4. BarChart of Sales for Turkish Italian and Greek cuisines
 
 In this task, you need to compare the sales of the three different cuisines sold at Little Lemon. Create a Bar chart that shows the sales of the Turkish, Italian and Greek cuisines.You need to display sales data for 2020, 2021, and 2022 only. Each bar should display the profit of each cuisine. 
 
-![LittleLemon_interactive Dashboard](LittleLemon_Tableau_DataAnalysis/LittleLemon_interactivedashboard.png)
+![LittleLemon_BarChart of cuisine sales](LittleLemon_Tableau_DataAnalysis/LittleLemon_Barchart.png)
 
-### 5. BarChart of Sales for Turkish Italian and Greek cuisines
+### 5. Little Lemon Interactive Dashboard
 
 In this final task, you need to create an interactive dashboard that combines the Bar chart called Customers sales and the Sales Bubble Chart
 
-![LittleLemon_BarChart of cuisine sales](LittleLemon_Tableau_DataAnalysis/LittleLemon_Barchart.png)
-
+![LittleLemon_interactive Dashboard](LittleLemon_Tableau_DataAnalysis/LittleLemon_interactivedashboard.png)
