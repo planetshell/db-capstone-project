@@ -48,10 +48,10 @@ Little Lemon need to find all menu items for which more than 2 orders have been 
 ### 1. Stored Procedure GetMaxQuantity
 In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table.
 
-CREATE DEFINER=`sbishop`@`%` PROCEDURE `GetMaxQuantity`()
-BEGIN
-SELECT max(Quantity) as MaxQuantityOrdered FROM orders;
-END
+##### CREATE DEFINER=`sbishop`@`%` PROCEDURE `GetMaxQuantity`()
+##### BEGIN
+##### SELECT max(Quantity) as MaxQuantityOrdered FROM orders;
+##### END
 
 ![GetMaxQuantity](LittleLemon_Stored_Procedures/LittleLemon_GetMaxQuantity_StoredProcedure_results.png)
 
@@ -61,7 +61,10 @@ In this first task, Little Lemon need you to create a procedure that displays th
 
 In the second task, Little Lemon need you to help them to create a prepared statement called GetOrderDetail. This prepared statement will help to reduce the parsing time of queries. It will also help to secure the database from SQL injections.
 
-###### PREPARE GetOrderDetail FROM 'SELECT OrderID, Quantity, TotalCost FROM orders WHERE CustomerID = ?';
+##### PREPARE GetOrderDetail FROM 'SELECT OrderID, Quantity, TotalCost FROM orders WHERE CustomerID = ?';
+
+
+![GetOrderDetail](LittleLemon_Prepared_Statements/LittleLemon_GetOrderDetail_PreparedStatement_results.png)
 
 ## Task-4 Create Interactive Dashboard for Sales and Profit
 
