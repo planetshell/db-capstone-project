@@ -61,7 +61,7 @@ In this first task, Little Lemon need you to create a procedure that displays th
 
 In the second task, Little Lemon need you to help them to create a prepared statement called GetOrderDetail. This prepared statement will help to reduce the parsing time of queries. It will also help to secure the database from SQL injections.
 
-
+###### PREPARE GetOrderDetail FROM 'SELECT OrderID, Quantity, TotalCost FROM orders WHERE CustomerID = ?';
 
 ## Task-4 Create Interactive Dashboard for Sales and Profit
 
