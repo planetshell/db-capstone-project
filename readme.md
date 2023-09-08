@@ -57,7 +57,9 @@ END
 
 In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table.
 
+### 2. Prepared Statement GetOrderDetail
 
+In the second task, Little Lemon need you to help them to create a prepared statement called GetOrderDetail. This prepared statement will help to reduce the parsing time of queries. It will also help to secure the database from SQL injections.
 
 
 
