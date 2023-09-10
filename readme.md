@@ -91,6 +91,10 @@ END
 
 ### 1. Populate Booking Table
 
+Little Lemon wants to populate the Bookings table of their database with some records of data.
+
+
+
 
 ## Task-5 Create Interactive Dashboard for Sales and Profit
 
