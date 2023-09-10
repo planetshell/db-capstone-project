@@ -85,6 +85,8 @@ END
 
 #### Query Result:
 
+![CancelOrder](LittleLemon_Stored_Procedures/LittleLemon_CancelOrder_StoredProcedure_results.png)
+
 
 ## Task-4 Create Interactive Dashboard for Sales and Profit
 
