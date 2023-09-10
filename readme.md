@@ -76,6 +76,14 @@ In the second task, Little Lemon need you to help them to create a prepared stat
 Your third and final task is to create a stored procedure called CancelOrder. Little Lemon want to use this stored procedure to delete an order record based on the user input of the order id.
 Creating this procedure will allow Little Lemon to cancel any order by specifying the order id value in the procedure parameter without typing the entire SQL delete statement.  
 
+#### SQL Statement:
+CREATE DEFINER=`sbishop`@`%` PROCEDURE `CancelOrder`(Order_ID Int)
+BEGIN
+DELETE FROM orders WHERE OrderID = Order_ID;
+SELECT CONCAT("Order"," ",Order_ID," ", "is Cancelled") AS Confirmation; 
+END
+
+#### Query Result:
 
 
 ## Task-4 Create Interactive Dashboard for Sales and Profit
