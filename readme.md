@@ -43,12 +43,81 @@ Little Lemon need to find all menu items for which more than 2 orders have been 
 
 ![LittleLemon_SubQuery](LittleLemonSubQueries/LittleLemon_Subquery_DataSummerization_results.png)
 
+## Task-3 Create optimized queries to manage and analyze data
 
-## Task-3 Create Interactive Dashboard for Sales and Profit
+### 1. Stored Procedure- GetMaxQuantity
+In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table.
+
+#### SQL Statement:
+#####  CREATE DEFINER=`sbishop`@`%` PROCEDURE `GetMaxQuantity`() 
+##### BEGIN 
+##### SELECT max(Quantity) as MaxQuantityOrdered FROM orders;
+##### END 
+
+#### Query Result:
+![GetMaxQuantity](LittleLemon_Stored_Procedures/LittleLemon_GetMaxQuantity_StoredProcedure_results.png)
+
+In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table.
+
+### 2. Prepared Statement- GetOrderDetail
+
+In the second task, Little Lemon need you to help them to create a prepared statement called GetOrderDetail. This prepared statement will help to reduce the parsing time of queries. It will also help to secure the database from SQL injections.
+
+#### SQL Statement:
+###### PREPARE GetOrderDetail FROM 'SELECT OrderID, Quantity, TotalCost FROM orders WHERE CustomerID = ?';
+
+#### Query Result:
+
+![GetOrderDetail](LittleLemon_Prepared_Statements/LittleLemon_GetOrderDetail_PreparedStatement_results.png)
+
+
+### 3. Stored Procedure- CancelOrder
+
+Your third and final task is to create a stored procedure called CancelOrder. Little Lemon want to use this stored procedure to delete an order record based on the user input of the order id.
+Creating this procedure will allow Little Lemon to cancel any order by specifying the order id value in the procedure parameter without typing the entire SQL delete statement.  
+
+#### SQL Statement:
+CREATE DEFINER=`sbishop`@`%` PROCEDURE `CancelOrder`(Order_ID Int)
+BEGIN
+DELETE FROM orders WHERE OrderID = Order_ID;
+SELECT CONCAT("Order"," ",Order_ID," ", "is Cancelled") AS Confirmation; 
+END
+
+#### Query Result:
+
+![CancelOrder](LittleLemon_Stored_Procedures/LittleLemon_CancelOrder_StoredProcedure_results.png)
+
+
+## Task-4 Create Interactive Dashboard for Sales and Profit
 
 ### 1. Barchart of Customer Sales 
 
 In the first task, you need to create a bar chart that shows customers sales and filter data based on sales with at least $70.
 
-![LittleLemon_SubQuery](LittleLemonSubQueries/LittleLemon_Subquery_DataSummerization_results.png)
+![LittleLemon_CustomerSales](LittleLemon_Tableau_DataAnalysis/LittleLemon_BarChart2.png)
 
+### 2. LineChart of Sales Trend 2019 to 2022 
+
+In the second task, you need to create a line chart to show the sales trend from 2019 to 2022. 
+
+![LittleLemon_LineChart](LittleLemon_Tableau_DataAnalysis/LittleLemon_LineChart.png)
+
+
+### 3. BubbleChart of Sales for all customers 
+
+In the third task, you need to create a Bubble chart of sales for all customers. The chart should show the names of all customers.
+
+![LittleLemon_BubbleChart](LittleLemon_Tableau_DataAnalysis/Little_Lemon_Sales_BubbleChart.png)
+
+
+### 4. BarChart of Sales for Turkish Italian and Greek cuisines
+
+In this task, you need to compare the sales of the three different cuisines sold at Little Lemon. Create a Bar chart that shows the sales of the Turkish, Italian and Greek cuisines.You need to display sales data for 2020, 2021, and 2022 only. Each bar should display the profit of each cuisine. 
+
+![LittleLemon_BarChart of cuisine sales](LittleLemon_Tableau_DataAnalysis/LittleLemon_Barchart.png)
+
+### 5. Little Lemon Interactive Dashboard
+
+In this final task, you need to create an interactive dashboard that combines the Bar chart called Customers sales and the Sales Bubble Chart
+
+![LittleLemon_interactive Dashboard](LittleLemon_Tableau_DataAnalysis/LittleLemon_interactivedashboard.png)
