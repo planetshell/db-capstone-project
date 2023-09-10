@@ -87,8 +87,8 @@ END
 
 ![CancelOrder](LittleLemon_Stored_Procedures/LittleLemon_CancelOrder_StoredProcedure_results.png)
 
-
-## Task-4 Create Interactive Dashboard for Sales and Profit
+## Task-4 Create optimized queries to manage and analyze data
+## Task-5 Create Interactive Dashboard for Sales and Profit
 
 ### 1. Barchart of Customer Sales 
 
