@@ -93,6 +93,8 @@ END
 
 Little Lemon wants to populate the Bookings table of their database with some records of data.
 
+![Booking Table](LittleLemon_Stored_Procedures/LittleLemon_Booking_Table.png)
+
 
 
 
