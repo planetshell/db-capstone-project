@@ -115,7 +115,7 @@ To implement these steps, you need to create a new procedure called AddValidBook
 ![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_SQL.png)
 
 #### Query Result:
-![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_SQL.png)
+![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_Result.png)
 
 
 
