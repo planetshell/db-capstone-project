@@ -95,6 +95,12 @@ Little Lemon wants to populate the Bookings table of their database with some re
 
 ![Booking Table](LittleLemon_Stored_Procedures/LittleLemon_Booking_Table.png)
 
+### 2. Stored Procedure- CheckBooking
+
+For your second task, Little Lemon need you to create a stored procedure called CheckBooking to check whether a table in the restaurant is already booked. Creating this procedure helps to minimize the effort involved in repeatedly coding the same SQL statements.The procedure should have two input parameters in the form of booking date and table number. You can also create a variable in the procedure to check the status of each table.
+
+
+
 
 
 
