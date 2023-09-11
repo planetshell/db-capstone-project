@@ -112,10 +112,10 @@ For your third and final task, Little Lemon need to verify a booking, and declin
 Since integrity is not optional, Little Lemon need to ensure that every booking attempt includes these verification and decline steps. However, implementing these steps requires a stored procedure and a transaction. 
 To implement these steps, you need to create a new procedure called AddValidBooking. This procedure must use a transaction statement to perform a rollback if a customer reserves a table that’s already booked under another name.
 #### SQL Statement:
-[AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_SQL.png)
+![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_SQL.png)
 
 #### Query Result:
-[AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_SQL.png)
+![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_SQL.png)
 
 
 
