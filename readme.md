@@ -89,7 +89,7 @@ END
 
 ## Task-4 Create SQL queries to check available bookings based on user input
 
-### 1. Populate Booking Table
+### 1. Populate the Booking Table
 
 Little Lemon wants to populate the Bookings table of their database with some records of data.
 
@@ -106,7 +106,7 @@ For your second task, Little Lemon need you to create a stored procedure called 
 ![CheckBooking Result](LittleLemon_Stored_Procedures/LittleLemon_CheckBooking_Result.png)
 
 
-### 2. Stored Procedure - AddValidBooking
+### 3. Stored Procedure - AddValidBooking
 
 For your third and final task, Little Lemon need to verify a booking, and decline any reservations for tables that are already booked under another name. 
 Since integrity is not optional, Little Lemon need to ensure that every booking attempt includes these verification and decline steps. However, implementing these steps requires a stored procedure and a transaction. 
