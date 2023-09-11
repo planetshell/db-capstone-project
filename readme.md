@@ -117,9 +117,12 @@ To implement these steps, you need to create a new procedure called AddValidBook
 #### Query Result:
 ![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_Result.png)
 
+## Task-5 Create SQL queries to add and update bookings
 
+### 1. Stored Procedure - AddBooking
+In this first task you need to create a new procedure called AddBooking to add a new table booking record.
 
-## Task-5 Create Interactive Dashboard for Sales and Profit
+## Task-6 Little Lemon Sales and Profit Analysis with Tableau 
 
 ### 1. Barchart of Customer Sales 
 
