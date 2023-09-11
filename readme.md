@@ -87,8 +87,42 @@ END
 
 ![CancelOrder](LittleLemon_Stored_Procedures/LittleLemon_CancelOrder_StoredProcedure_results.png)
 
+## Task-4 Create SQL queries to check available bookings based on user input
 
-## Task-4 Create Interactive Dashboard for Sales and Profit
+### 1. Populate the Booking Table
+
+Little Lemon wants to populate the Bookings table of their database with some records of data.
+
+![Booking Table](LittleLemon_Stored_Procedures/LittleLemon_Booking_Table.png)
+
+### 2. Stored Procedure- CheckBooking
+
+For your second task, Little Lemon need you to create a stored procedure called CheckBooking to check whether a table in the restaurant is already booked. Creating this procedure helps to minimize the effort involved in repeatedly coding the same SQL statements.The procedure should have two input parameters in the form of booking date and table number. You can also create a variable in the procedure to check the status of each table.
+
+#### SQL Statement:
+![CheckBooking SQL](LittleLemon_Stored_Procedures/LittleLemon_CheckBooking_SQL.png)
+
+#### Query Result:
+![CheckBooking Result](LittleLemon_Stored_Procedures/LittleLemon_CheckBooking_Result.png)
+
+
+### 3. Stored Procedure - AddValidBooking
+
+For your third and final task, Little Lemon need to verify a booking, and decline any reservations for tables that are already booked under another name. 
+Since integrity is not optional, Little Lemon need to ensure that every booking attempt includes these verification and decline steps. However, implementing these steps requires a stored procedure and a transaction. 
+To implement these steps, you need to create a new procedure called AddValidBooking. This procedure must use a transaction statement to perform a rollback if a customer reserves a table that’s already booked under another name.
+#### SQL Statement:
+![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_SQL.png)
+
+#### Query Result:
+![AddValidBooking](LittleLemon_Stored_Procedures/LittleLemon_AddValidBooking_Result.png)
+
+## Task-5 Create SQL queries to add and update bookings
+
+### 1. Stored Procedure - AddBooking
+In this first task you need to create a new procedure called AddBooking to add a new table booking record.
+
+## Task-6 Little Lemon Sales and Profit Analysis with Tableau 
 
 ### 1. Barchart of Customer Sales 
 
