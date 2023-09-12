@@ -127,6 +127,29 @@ In this first task you need to create a new procedure called AddBooking to add a
 
 #### Query Result:
 ![AddBooking Result](LittleLemon_Stored_Procedures/LittleLemon_AddBooking_Result.png)
+
+### 2. Stored Procedure - UpdateBooking
+For your second task, Little Lemon need you to create a new procedure called UpdateBooking that they can use to update existing bookings in the booking table.
+The procedure should have two input parameters in the form of booking id and booking date. You must also include an UPDATE statement inside the procedure. 
+
+#### SQL Statement:
+![AddBooking](LittleLemon_Stored_Procedures/LittleLemon_Addbooking_SQL.png)
+
+#### Query Result:
+![AddBooking Result](LittleLemon_Stored_Procedures/LittleLemon_AddBooking_Result.png)
+
+
+### 3. Stored Procedure - CancelBooking
+For the third and final task, Little Lemon need you to create a new procedure called CancelBooking that they can use to cancel or remove a booking.
+The procedure should have one input parameter in the form of booking id. You must also write a DELETE statement inside the procedure. 
+
+#### SQL Statement:
+![AddBooking](LittleLemon_Stored_Procedures/LittleLemon_Addbooking_SQL.png)
+
+#### Query Result:
+![AddBooking Result](LittleLemon_Stored_Procedures/LittleLemon_AddBooking_Result.png)
+
+
 ## Task-6 Little Lemon Sales and Profit Analysis with Tableau 
 
 ### 1. Barchart of Customer Sales 
