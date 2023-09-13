@@ -136,7 +136,7 @@ The procedure should have two input parameters in the form of booking id and boo
 ![UpdateBooking SQL](LittleLemon_Stored_Procedures/LittleLemon_UpdateBooking_SQL.png)
 
 #### Query Result:
-![AddBooking Result](LittleLemon_Stored_Procedures/LittleLemon_AddBooking_Result.png)
+![UpdateBooking Result](LittleLemon_Stored_Procedures/LittleLemon_UpdateBooking_Result.png)
 
 
 ### 3. Stored Procedure - CancelBooking
@@ -144,10 +144,10 @@ For the third and final task, Little Lemon need you to create a new procedure ca
 The procedure should have one input parameter in the form of booking id. You must also write a DELETE statement inside the procedure. 
 
 #### SQL Statement:
-![AddBooking](LittleLemon_Stored_Procedures/LittleLemon_Addbooking_SQL.png)
+![CancelBooking SQL](LittleLemon_Stored_Procedures/LittleLemon_CancelBooking_SQL.png)
 
 #### Query Result:
-![AddBooking Result](LittleLemon_Stored_Procedures/LittleLemon_AddBooking_Result.png)
+![CancelBooking Result](LittleLemon_Stored_Procedures/LittleLemon_CancelBooking_Result.png)
 
 
 ## Task-6 Little Lemon Sales and Profit Analysis with Tableau 
