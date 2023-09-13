@@ -183,3 +183,6 @@ In this task, you need to compare the sales of the three different cuisines sold
 In this final task, you need to create an interactive dashboard that combines the Bar chart called Customers sales and the Sales Bubble Chart
 
 ![LittleLemon_interactive Dashboard](LittleLemon_Tableau_DataAnalysis/LittleLemon_interactivedashboard.png)
+
+
+## Task-7 Little Lemon Database Client Setup
