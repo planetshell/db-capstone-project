@@ -133,7 +133,7 @@ For your second task, Little Lemon need you to create a new procedure called Upd
 The procedure should have two input parameters in the form of booking id and booking date. You must also include an UPDATE statement inside the procedure. 
 
 #### SQL Statement:
-![AddBooking](LittleLemon_Stored_Procedures/LittleLemon_Addbooking_SQL.png)
+![UpdateBooking SQL](LittleLemon_Stored_Procedures/LittleLemon_UpdateBooking_SQL.png)
 
 #### Query Result:
 ![AddBooking Result](LittleLemon_Stored_Procedures/LittleLemon_AddBooking_Result.png)
