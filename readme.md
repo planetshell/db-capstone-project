@@ -1,7 +1,7 @@
 # Little Lemon Database Capstone Project
 
 ## Introduction
-This project is helps Little Lemon build and management. To accomplish this, the following tasks were performed:
+This project involves building a database management system DBMS for the Little Lemon restaurant. To accomplish this, the following tasks were performed:
 
 ## Task-1 Build Little Lemon Database Management System
 ### 1. Choosing the right Data Model
