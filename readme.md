@@ -9,7 +9,7 @@ The purpose of this project is to build a database management system or DBMS for
 
 Once the database is created and populated with the data, the following tasks will be performed: 
 
-1. Create profita & sales reports for Little Lemon 
+1. Create profits & sales reports for Little Lemon management 
 2. Build a booking system for Little Lemon customers
 3. Generate data insight using data anayltics
 4. Create a database client using Python
