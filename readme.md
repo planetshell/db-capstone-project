@@ -1,7 +1,17 @@
 # Little Lemon Database Capstone Project
 
 ## Introduction
-The purpose of this project is to build a database management system or DBMS for the Little Lemon restaurant. The database system will store information on Little Lemon's customers, orders, bookings, menus and employees. This is accomplished by creating and implementing a entity relationship diagram ERD. Once the database is created, we then create sales reports, build a booking system, generate data insight using data anayltics and create a database client.    the following tasks were performed:
+The purpose of this project is to build a database management system or DBMS for the Little Lemon restaurant. The database system will store information on Little Lemon's customers, orders, bookings, menus and employees. This is accomplished by following:
+
+1. Choosing a data model that meeting the Little Lemon business structure
+2. Creating and implementing a entity relationship diagram ERD
+
+Once the database is created and populated with the data, the following tasks will be performed: 
+
+1. Create sales reports
+2. Build a booking system
+3. Generate data insight using data anayltics
+4. Create a database client
 
 ## Task-1 Build Little Lemon Database Management System
 ### 1. Choosing the right Data Model
