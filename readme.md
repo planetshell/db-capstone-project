@@ -89,14 +89,10 @@ Your third and final task is to create a stored procedure called CancelOrder. Li
 Creating this procedure will allow Little Lemon to cancel any order by specifying the order id value in the procedure parameter without typing the entire SQL delete statement.  
 
 #### SQL Statement:
-CREATE DEFINER=`sbishop`@`%` PROCEDURE `CancelOrder`(Order_ID Int)
-BEGIN
-DELETE FROM orders WHERE OrderID = Order_ID;
-SELECT CONCAT("Order"," ",Order_ID," ", "is Cancelled") AS Confirmation; 
-END
+![CancelOrder SQL](LittleLemon_Stored_Procedures/LittleLemon_CancelOrder_SQL.png)
+
 
 #### Query Result:
-
 ![CancelOrder](LittleLemon_Stored_Procedures/LittleLemon_CancelOrder_StoredProcedure_results.png)
 
 ## Task-4 Create SQL queries to check available bookings based on user input
