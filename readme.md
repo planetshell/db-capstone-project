@@ -38,6 +38,11 @@ The MySQL workbench forward engineering feature was then used to implement the L
 ### 1. Create Virtual Table to summarize data
 The image below is a virtual table called OrdersView that focuses on OrderID, Quantity and Cost columns within the Orders table for all orders with a quantity greater than 2. 
 
+#### SQL Statement:
+![OrderView](LittleLemon_Stored_Procedures/LittleLemon_OrderView.png)
+
+
+#### Query Result:
 ![OrderView](LittleLemon_OrderView_VirtualTableQuery_results.png)
 
 
