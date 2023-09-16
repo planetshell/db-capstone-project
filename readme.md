@@ -1,7 +1,18 @@
 # Little Lemon Database Capstone Project
 
 ## Introduction
-This project is helps Little Lemon build and management. To accomplish this, the following tasks were performed:
+The purpose of this project is to build a database management system or DBMS for the Little Lemon restaurant. The database system will store information on Little Lemon's customers, orders, bookings, menus and employees. The steps involve in building a DBMS are as follows:
+
+1. Choosing a data model that best fits Little Lemon business structure
+2. Creating an entity relationship diagram (ERD) model in MYSQL workbench
+3. Creating the database schema by implementing the ER model in MYSQL server 
+
+Once the database is created and populated with the data, the following tasks will be performed: 
+
+1. Create profits & sales reports for the Little Lemon management team
+2. Build a booking system for Little Lemon customers
+3. Generate data insight using data anayltics with Tableau
+4. Create a database client using Python
 
 ## Task-1 Build Little Lemon Database Management System
 ### 1. Choosing the right Data Model
@@ -122,6 +133,34 @@ To implement these steps, you need to create a new procedure called AddValidBook
 ### 1. Stored Procedure - AddBooking
 In this first task you need to create a new procedure called AddBooking to add a new table booking record.
 
+#### SQL Statement:
+![AddBooking](LittleLemon_Stored_Procedures/LittleLemon_Addbooking_SQL.png)
+
+#### Query Result:
+![AddBooking Result](LittleLemon_Stored_Procedures/LittleLemon_AddBooking_Result.png)
+
+### 2. Stored Procedure - UpdateBooking
+For your second task, Little Lemon need you to create a new procedure called UpdateBooking that they can use to update existing bookings in the booking table.
+The procedure should have two input parameters in the form of booking id and booking date. You must also include an UPDATE statement inside the procedure. 
+
+#### SQL Statement:
+![UpdateBooking SQL](LittleLemon_Stored_Procedures/LittleLemon_UpdateBooking_SQL.png)
+
+#### Query Result:
+![UpdateBooking Result](LittleLemon_Stored_Procedures/LittleLemon_UpdateBooking_Result.png)
+
+
+### 3. Stored Procedure - CancelBooking
+For the third and final task, Little Lemon need you to create a new procedure called CancelBooking that they can use to cancel or remove a booking.
+The procedure should have one input parameter in the form of booking id. You must also write a DELETE statement inside the procedure. 
+
+#### SQL Statement:
+![CancelBooking SQL](LittleLemon_Stored_Procedures/LittleLemon_CancelBooking_SQL.png)
+
+#### Query Result:
+![CancelBooking Result](LittleLemon_Stored_Procedures/LittleLemon_CancelBooking_Result.png)
+
+
 ## Task-6 Little Lemon Sales and Profit Analysis with Tableau 
 
 ### 1. Barchart of Customer Sales 
@@ -155,3 +194,6 @@ In this task, you need to compare the sales of the three different cuisines sold
 In this final task, you need to create an interactive dashboard that combines the Bar chart called Customers sales and the Sales Bubble Chart
 
 ![LittleLemon_interactive Dashboard](LittleLemon_Tableau_DataAnalysis/LittleLemon_interactivedashboard.png)
+
+
+## Task-7 Little Lemon Database Client Setup
