@@ -27,12 +27,12 @@ After comparing various data models, the entity relationship model is the best f
 6. Employee - [EmployeeID, FirstName, LastName, Role, Salary]         
 
 ### 2.Creating the ER-Diagram in MySQL workbench 
-MySQL workbench was used to create a normalized entity relationship model or ER diagram for the Little Lemon database management system. The diagram show all entities or tables along with their related attributes, constraints, primary keys and secondary keys.The diagram show a one-to-many relationship between entities. Finally diagram also show that the database adheres to the 3 fundamental normal forms 1NF, 2NF and 3NF. 
+MySQL workbench was used to create a normalized entity relationship model or ER diagram for the Little Lemon database management system. The diagram show all entities or tables along with their related attributes, constraints, primary keys and secondary keys.The diagram show a one-to-many relationship between entities. Finally the diagram also show that the database adheres to the 3 fundamental normal forms 1NF, 2NF and 3NF. 
 
 ![Little Lemon Data Model](LittleLemonDataModel/LittleLemonDM.png)
 
 ### 3. Implementing the Little Lemon database Schema
-The MySQL workbench forward engineering feature was then used to implement the Little Lemom database model into the MySQL server. schema.  
+The final step in the DBMS process is to create the database schema. This is accomplish by using the MySQL workbench forward engineering feature to implement the Little Lemom database model into the MySQL server.   
 ## Task-2 Create Sales Report from Little Lemon data
 
 ### 1. Create Virtual Table to summarize data
