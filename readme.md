@@ -33,6 +33,8 @@ MySQL workbench was used to create a normalized entity relationship model or ER 
 
 ### 3. Implementing the Little Lemon database Schema
 The final step in the DBMS process is to create the database schema. This is accomplish by using the MySQL workbench forward engineering feature to implement the Little Lemom database model into the MySQL server.   
+![LittleLemon Database Schema](LittleLemon_Stored_Procedures/LittleLemon_database_Schema.png)
+
 ## Task-2 Create Sales Report from Little Lemon data
 
 ### 1. Create Virtual Table to summarize data
