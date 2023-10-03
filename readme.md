@@ -51,7 +51,7 @@ The image below is a virtual table called OrdersView that focuses on OrderID, Qu
 
 
 ### 2. Join query statement for multiple tables 
-The query statement below collect information from four tables on all customers with orders that cost more than $150. Extract the required information from each of the following tables by using the relevant JOIN clause: 
+The join query statement below collected information from four tables on all customers with orders that cost more than $150. 
 
 ![Join Query](LittleLemon_Stored_Procedures/LittleLemon_JoinQuery_statement.png)
 
