@@ -37,7 +37,7 @@ The final step in the DBMS process is to create the database schema. This is acc
 
 ## Task-2 Create reports from Little Lemon database
 
-Now that the Little Lemon database management system has been build. We will create some report from the data from the orders table. 
+With the Little Lemon database management system build and populated with data,we will create some report from the data. We will create virtual table from the orders table, combine tables using join queries and finally summerize the the menu table using subqueries. 
 
 ### 1. Create Virtual Table to summarize data
 The image below is a virtual table called OrdersView that focuses on OrderID, Quantity and Cost columns within the Orders table for all orders with a quantity greater than 2. 
