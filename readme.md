@@ -35,8 +35,8 @@ MySQL workbench was used to create a normalized entity relationship model or ER 
 The final step in the DBMS process is to create the database schema. This is accomplish by using the MySQL workbench forward engineering feature. The MySQL forward engineering feature implements the Little Lemom database model into the MySQL server as shown below.   
 ![LittleLemon Database Schema](LittleLemon_Stored_Procedures/LittleLemon_database_Schema.png)
 
-## Task-2 Create reports from Little Lemon database
 
+## Task-2 Create reports from Little Lemon database
 With the Little Lemon database management system built and populated with data,we will create some report from the data. We will create a virtual table from the orders table, query multiple tables and join them using SQL join clauses and finally summerize the the menu table using SQL subqueries. 
 
 ### 1. Create Virtual Table to summarize data
@@ -74,11 +74,10 @@ The first optimized query is a stored procedure call GetMaxQuantity.This procedu
 #### Query Result:
 ![GetMaxQuantity](LittleLemon_Stored_Procedures/LittleLemon_GetMaxQuantity_StoredProcedure_results.png)
 
-In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table.
 
 ### 2. Prepared Statement- GetOrderDetail
 
-In the second task, Little Lemon need you to help them to create a prepared statement called GetOrderDetail. This prepared statement will help to reduce the parsing time of queries. It will also help to secure the database from SQL injections.
+The second optimized query is a prepared statement called GetOrderDetail. This prepared statement will help to reduce the parsing time of queries. It will also help to secure the database from SQL injections. GetOrderDetail accepts one input argument the customerID and returns the orderID, Quantity and orderCost from the Orders table
 
 #### SQL Statement:
 ![GetOrderDetail SQL](LittleLemon_Stored_Procedures/LittleLemon_GetOrderDetail_SQL.png)
