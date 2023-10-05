@@ -50,7 +50,7 @@ The image below is a virtual table called OrdersView that focuses on OrderID, Qu
 ![OrderView](LittleLemon_OrderView_VirtualTableQuery_results.png)
 
 
-### 2. Join query statement for multiple tables 
+### 2. Query multiple tables using Join clauses 
 The join query statement below collected information from four tables on all customers with orders that cost more than $150. 
 
 ![Join Query](LittleLemon_Stored_Procedures/LittleLemon_JoinQuery_statement.png)
