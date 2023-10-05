@@ -66,7 +66,7 @@ Little Lemon need to find all menu items for which more than 2 orders have been 
 To help Little Lemon query data faster we will create some optimized queries using stored procedures and prepared statements. 
 Optimized queries increases the database overall efficiency by reducing the number of steps needed to query data.  
 ### 1. Stored Procedure- GetMaxQuantity
-The first optimized query is a stored procedure call GetMaxQuantity that will help Little Lemon quickly view the maximum quantity from the Orders table. This is done by simply calling the procedure GetMaxQuantity as shown below. 
+The first optimized query is a stored procedure call GetMaxQuantity.This procedure helps Little Lemon quickly view the maximum quantity from the Orders table by simply calling the procedure name as shown below. 
 
 #### SQL Statement:
 ![GetMaxQuantitySQL](LittleLemon_Stored_Procedures/LittleLemon_GetMaxQuantity_SQL.png)
