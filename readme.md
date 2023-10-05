@@ -63,9 +63,10 @@ Little Lemon need to find all menu items for which more than 2 orders have been 
 ![LittleLemon_SubQuery](LittleLemonSubQueries/LittleLemon_Subquery_DataSummerization_results.png)
 
 ## Task-3 Create optimized queries to manage and analyze data
-To help Little Lemon query their database efficiently we will create some optimized query using stored procedures and prepared statements 
+To help Little Lemon query data faster we will create some optimized queries using stored procedures and prepared statements. 
+Optimized queries increases the database overall efficiency by reducing the number of steps needed to query data.  
 ### 1. Stored Procedure- GetMaxQuantity
-In this first task, Little Lemon need you to create a procedure that displays the maximum ordered quantity in the Orders table.
+The first optimized query is a stored procedure that will help Little Lemon quickly view t need you to create a procedure that displays the maximum ordered quantity in the Orders table.
 
 #### SQL Statement:
 ![GetMaxQuantitySQL](LittleLemon_Stored_Procedures/LittleLemon_GetMaxQuantity_SQL.png)
