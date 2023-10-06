@@ -100,7 +100,8 @@ Creating this procedure will allow Little Lemon to cancel any order by specifyin
 ![CancelOrder](LittleLemon_Stored_Procedures/LittleLemon_CancelOrder_StoredProcedure_results.png)
 
 ## Task-4 Create SQL queries to check available bookings based on user input
-In this section we will focus on the bookings table. We will create optimized queries for the bookings table 
+In this section we will focus on Little Lemon's bookings table.First we will populate the bookings table then create optimized queries 
+that will check available bookings based on table numbers and add a valid booking if a table is availabe.  
 
 ### 1. Populate the Booking Table
 
