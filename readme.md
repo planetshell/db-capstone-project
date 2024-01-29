@@ -200,3 +200,5 @@ In this final task, you need to create an interactive dashboard that combines th
 
 
 ## Task-7 Little Lemon Database Client Setup
+
+Finally I will help Little Lemon setup a database client to connect to the  MySQL server.  
