@@ -201,4 +201,4 @@ In this final task, you need to create an interactive dashboard that combines th
 
 ## Task-7 Little Lemon Database Client Setup
 
-Finally I will help Little Lemon setup a database client to connect to the  MySQL server.  
+Finally I will help Little Lemon setup a database client to connect to the  MySQL server. Little Lemon needs you to help them to build a Booking System so that their guests can book tables with the restaurant.  
